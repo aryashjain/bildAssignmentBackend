@@ -4,5 +4,5 @@ import { getCharacters,getCharactersById } from "../controllers/character.contro
 const router = Router();
 
  router.route('/getCharacters').get(getCharacters)
- router.route('/getCharacters/:id').get(getCharactersById)
+ router.route('/getCharacter/:id').get(getCharactersById)
 export default router
